@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/styleMain.css">
+</head>
+<body onload="actTable()">
+    <div class = "container">
+        <div class="form-content">
+            <div class = "header">
+                <h1 id = "title">RESULTADOS</h1>
+                <h1 id = "user-name"></h1>
+                <div class="logo-container">
+                    <div class="logo">
+                        <div class ="hline"></div>
+                        <div class ="vline"></div>
+                        <div class ="hline-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <table id = "table" class="table">
+                <tr id = "header-table" class="header-table">
+                    <th id="c1">Partida</th>
+                    <th id="c2">Puntaje</th>
+                    <th id="c3">Resultado</th>
+                </tr>
+            </table>
+            <div class="btn-main">
+                <button id="submit" type="button" onclick='return exit();'>Regresar</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+.logo-container-game{
+    width: 90px;
+    height: 120px;
+    margin: 10px auto;
+}
+
+.user-game-container{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    justify-content: space-between;
+}
+
+.user-game-container h2{
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    margin: auto;
+    margin-left: 10px; 
+}
+
+.user-game-container h3{
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.user-game-container h4{
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    margin: auto 0;
+    
+}
+
+.user-game-container i{
+    color:#04bd7d ;
+    margin: auto 0; 
+}
+
+.head-game{
+    border-color:  #2C2f35; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+
+}
+
+.left-arm{
+    width: 10%;
+    background: #2C2f35;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 61%;
+    bottom: 145px;
+
+}
+
+.right-arm{
+    width: 10%;
+    background: #2C2f35; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 75%;
+    bottom: 149px;
+
+}
+
+.left-leg{
+    width: 10%;
+    background: #2C2f35; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 75%;
+    bottom: 135px;
+
+}
+
+.right-leg{
+    width: 10%;
+    background: #2C2f35;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 61%;
+    bottom: 139px;
+}
+
+.body-game{
+    background: #2C2f35;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+}
+
+
+
+.select-letter{
+    width: 98%;
+    height: 110px;
+    padding: 1% 1%;
+    position: relative;
+    background-color: #515966;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    display: flex;
+}
+
+.select-letter p1{
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.select-letter p2{
+    color: #FFFFFF;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+
+.selected-word{
+    width: 98%;
+    height: 50px;
+    padding: 1% 1%;
+    position: relative;
+    background-color: #515966;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+}
+
+.container-letter-word {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container-letter-word-space{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hline-word{
+    width: 16%;
+    margin: auto 3px;
+}
+
+.container-letter-word-div{
+    width: 16%;
+    margin: auto 0;
+    font-size: 30px;
+}
+
+.letter-a{
+    color: #515966;
+}
+
+.letter-b{
+    color: #FFFFFF;
+}
+
+
+.head-game-lost{
+    border-color:  #04bd7d; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+
+}
+
+.left-arm-lost{
+    width: 10%;
+    background: #04bd7d;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 61%;
+    bottom: 145px;
+
+}
+
+.right-arm-lost{
+    width: 10%;
+    background: #04bd7d; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 75%;
+    bottom: 149px;
+
+}
+
+.left-leg-lost{
+    width: 10%;
+    background: #04bd7d; /*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 75%;
+    bottom: 135px;
+
+}
+
+.right-leg-lost{
+    width: 10%;
+    background: #04bd7d;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+    left: 61%;
+    bottom: 139px;
+}
+
+.body-game-lost{
+    background: #04bd7d;/*#2C2f35 cuando se empiece a jugar para que desaparezca*/
+}
+
+
+.btt-option-container{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.btt-opt{
+    width: 40%;
+}
+
+.container-header-att{
+    display: flex;
+}

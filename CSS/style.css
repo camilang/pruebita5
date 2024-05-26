@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    background-color: #2C2f35;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+.header{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-content h1{
+    margin: 0;
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.logo-container{
+    width: 30px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.hline{
+    width: 100%;
+    height: 4px;
+    border-radius: 3px;
+    background: #04bd7d;
+    position: relative;
+    bottom: 0px;
+}
+
+.hline-bottom{
+    width: 70%;
+    height: 4px;
+    border-radius: 3px;
+    background: #04bd7d;
+    position: relative;
+    top: -5px;
+}
+
+.vline{
+    width: 4px;
+    height: 36px;
+    border-radius: 3px;
+    background: #04bd7d;
+    position: relative;
+    bottom: 4px;
+    left: 20%;
+    
+}
+
+
+.input-field{
+    background-color: #515966;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+
+.input-fail{
+    background-color: #b26666;
+    box-shadow: 1px 1px 5px #660202;
+}
+
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #04BD7D;
+    margin-bottom: 0px;
+}
+
+
+.input-group{
+    height: 81px;
+}
+
+.warning-container{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    margin-top: 6px;
+}
+
+.warning-container p{
+    text-align: left;
+    margin: 0px;
+    color: rgb(236, 55, 55);
+}
+
+.btn-submit{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+
+.btn-submit button{
+    flex-basis: 100%;
+    font-size: 16px;
+    background-color: #04BD7D;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+

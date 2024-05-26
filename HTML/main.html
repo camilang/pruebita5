@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHORCADO GAME</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/styleMain.css">
+</head>
+<body onload="changeTitle()">
+    <div class = "container">
+        <div class="form-content">
+            <div class = "header">
+                <h1 id = "title">😈BIENVENIDO😈</h1>
+                <h1 id = "user-name"></h1>
+                <div class="logo-container-main">
+                    <div class="logo-main">
+                        <div class ="hline-main"></div>
+                        <div class ="vline-main"></div>
+                        <div class ="hline-bottom-main"></div>
+                        <div class ="vline-main-rope"></div>
+                        <div class ="head"></div>
+                        <div class ="body"></div>
+                        <div class ="arm"></div>
+                        <div class ="leg"></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="btn-main">
+                <button id="submit" type="button" onclick='return startGame();'>Iniciar Partida</button>
+            </div>
+            <div class="btn-main">
+                <button id="submit" type="button" onclick='return seeBoard();'>Ver Puntajes</button>
+            </div>
+            <div class="btn-main">
+                <button id="submit" type="button" onclick='return backIndex();'>Salir</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/JS/script.js"></script>
+</body>
+</html>

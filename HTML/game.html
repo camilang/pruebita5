@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/styleMain.css">
+    <link rel="stylesheet" href="/CSS/styleGame.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="changeUser()" >
+    <div class = "container">
+        <div class="form-content">
+            <div class = "header">
+                <div class="user-game-container">
+                    <div class="container-header-att">
+                        <i class="fa-solid fa-user fa-game"></i>
+                        <h2 id = "user-name-game">user-name</h2>
+                    </div>
+                    <div class="container-header-att">
+                        <h3 id = "score-game">Puntaje: </h3>
+                        <h4 id = "score-game-points">0</h4>
+                    </div>
+                    <div class="container-header-att">
+                        <h4 id = "attend">Turno:</h4>
+                        <h4 id = "attend-nmr">0</h4>
+                    </div>
+                </div>
+                <div class="logo-container-game">
+                    <div class="logo-game">
+                        <div class ="hline-main"></div>
+                        <div class ="vline-main"></div>
+                        <div class ="hline-bottom-main"></div>
+                        <div class ="vline-game-main"></div>
+                        <div class ="vline-main-rope"></div>
+                        <div id ="head" class ="head head-game"></div>
+                        <div id = "body" class ="body body-game"></div>
+                        <div id ="left-arm" class ="arm left-arm"></div>
+                        <div id ="right-arm" class ="arm right-arm"></div>
+                        <div id ="left-leg" class ="leg left-leg"></div>
+                        <div id ="right-leg" class ="leg right-leg"></div>
+                    </div>
+                </div>
+                <div class="selected-word">
+                    <div class="container-letter-word" id = "container-letter-word">
+                        <div class="container-letter-word-div" id="container-letter-word-div">
+                            <p1 class = "letter-a" id="letter-1"></p1>
+                        </div>
+                    </div>
+                    <div id = "container-letter-word-space" class="container-letter-word-space">
+                        <div class ="hline-main hline-word" id ="hline-main hline-word"></div>
+                    </div>
+                </div>
+            <form>
+                <div class="input-group input-group-letter">
+                    <div class="input-field" id="selectLetterInput">
+                        <input class="input" id="selectLetter" type="text" placeholder="Ingrese una letra">
+                    </div>
+                    <div class="warning-container warning-letter">
+                        <p id="warning-letter-announce"></p>
+                    </div>
+                </div>
+                <div class="btn-submit btn-submit-letter">
+                    <button id="submit submit-letter" type="button" onclick=' sendLetter();'>Enviar</button>
+                </div>
+            </form>
+            <div class="select-letter">
+                <p1>Letras seleccionadas</p1>
+                <p2 id="sl"></p2>
+            </div>
+            <div class="btt-option-container">
+                <div class="btn-submit btn-submit-letter btt-opt">
+                    <button id="submit submit-letter" type="button" onclick=' startGame();'>Reiniciar</button>
+                </div>
+                <div class="btn-submit btn-submit-letter btt-opt">
+                    <button id="submit submit-letter" type="button" onclick=' exit();'>Salir</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
